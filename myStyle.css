@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@font-face {
+    font-family: haha;
+    src: url(whitney.ttf);
+}
+@font-face {
+    font-family: whitneyDefault;
+    src: url(whitneyDefault.ttf);
+}
+
+
+
+
+
+:root {
+    --mainColor: #2c2f33;
+    --secondaryColor: #23272a;
+    --hoverColor: #99aab5;
+    
+    --textColor: #ffffff;
+    --smallText: #B9BBBE;
+
+    --titleColor: #7289da;
+    --submitColor: #5865F2;
+    --loginwrapper: #36393f;
+}
+/* ____________________________________________________________________________________________________________________________________ */
+
+body{
+    background-color: var(--mainColor);
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+
+.loginsand {
+    background-color: var(--loginwrapper);
+    position: relative;
+    margin: auto;
+    padding: auto;
+    height: 50vh;
+    width: 50vh;
+    top: 25vh;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.box1{                                                           /* GREET */
+    /* background-color: red; */
+    margin-bottom: 25px;
+}
+.box1 h4 {
+    color: var(--textColor);
+    text-align: center;
+    font-family: 'haha';
+    font-size: 2rem;
+}
+.box1 p {
+    color: var(--smallText);
+    font-family: 'whitneyDefault';
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.box2 {                                                          /* LOGIN  */
+    color: var(--smallText);
+    /* background-color: blue; */
+    
+}
+.box2 label{
+    font-family: 'whitneyDefault';
+}
+.box2 .inpot{
+    background-color: var(--secondaryColor);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    width: 47vh;
+    height: 4vh;
+    display: block;
+    border-radius: 3px;
+    border-style: none;
+}
+.box2 .btn {
+    display: block;
+    margin: 2rem auto;
+    background-color: var(--submitColor);
+    color: #F6F7FE;
+    max-width: 100%;
+    width: 47vh;
+    height: 3rem;
+    border-radius: 3px;
+    border-style: none;
+    font-family: 'whitneyDefault';
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: #5865f2b0;
+    
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
